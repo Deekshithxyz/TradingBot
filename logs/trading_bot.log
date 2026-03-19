@@ -1,0 +1,17 @@
+2026-03-19 16:44:30 | INFO | trading_bot | API request | method=POST | url=https://testnet.binancefuture.com/api/v3/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1773918870221, 'recvWindow': 5000, 'signature': '***redacted***'}
+2026-03-19 16:44:30 | INFO | trading_bot | API response | status_code=202 | body={'raw': ''}
+2026-03-19 16:44:31 | INFO | trading_bot | API request | method=POST | url=https://testnet.binancefuture.com/api/v3/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1773918871713, 'recvWindow': 5000, 'signature': '***redacted***'}
+2026-03-19 16:44:31 | INFO | trading_bot | API response | status_code=202 | body={'raw': ''}
+2026-03-19 16:44:33 | INFO | trading_bot | API request | method=POST | url=https://testnet.binancefuture.com/api/v3/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1773918873638, 'recvWindow': 5000, 'signature': '***redacted***'}
+2026-03-19 16:44:34 | INFO | trading_bot | API response | status_code=202 | body={'raw': ''}
+2026-03-19 16:44:38 | INFO | trading_bot | API request | method=POST | url=https://testnet.binancefuture.com/api/v3/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1773918878369, 'recvWindow': 5000, 'signature': '***redacted***'}
+2026-03-19 16:44:38 | INFO | trading_bot | API response | status_code=202 | body={'raw': ''}
+2026-03-19 16:44:39 | INFO | trading_bot | API request | method=POST | url=https://testnet.binancefuture.com/api/v3/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1773918879846, 'recvWindow': 5000, 'signature': '***redacted***'}
+2026-03-19 16:44:40 | INFO | trading_bot | API response | status_code=202 | body={'raw': ''}
+2026-03-19 16:44:41 | INFO | trading_bot | API request | method=POST | url=https://testnet.binancefuture.com/api/v3/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1773918881348, 'recvWindow': 5000, 'signature': '***redacted***'}
+2026-03-19 16:44:41 | INFO | trading_bot | API response | status_code=202 | body={'raw': ''}
+2026-03-19 16:51:14 | INFO | trading_bot | API request | method=POST | url=https://testnet.binance.vision/api/v3/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1773919274023, 'recvWindow': 5000, 'signature': '***redacted***'}
+2026-03-19 16:51:14 | INFO | trading_bot | API response | status_code=401 | body={'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action.'}
+2026-03-19 16:57:01 | INFO | trading_bot | API request | method=POST | url=https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1773919621973, 'recvWindow': 5000, 'signature': '***redacted***'}
+2026-03-19 16:57:02 | INFO | trading_bot | API response | status_code=401 | body={'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action'}
+2026-03-19 16:57:02 | ERROR | trading_bot | Binance API error: Binance API error (401): {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action'}
