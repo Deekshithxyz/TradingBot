@@ -100,11 +100,3 @@ The CLI prints:
 - Binance exchange filters like step size / tick size are not pre-fetched in this version; the API returns a useful validation error if they do not match exchange rules.
 - The included log files are **illustrative examples of expected logging format**. You should regenerate them with your own testnet credentials before submission.
 
-## Notes for Submission
-
-Before sending this assignment, run at least:
-
-- one MARKET order
-- one LIMIT order
-
-Then attach the generated real log files from your environment.
